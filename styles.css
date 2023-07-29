@@ -1,19 +1,53 @@
-html {
-    /* Este es el estilo elegido para el css */
-    background-color: #2a3335;
-    font-family: Georgia, Tahoma, Arial, sans-serif;
-    color: rgb(18, 15, 211);
-      }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  background-color: aquamarine;
+}
+
+header {
+  background-color: green;
+  color: grey;
+  text-align: center;
+  padding: 22px;
+}
+
 
 h1 { 
-    /* Este es el estilo elegido para el titulo principal*/
     margin: 0;
-    padding: 35px 0;
-    font-size: 55px;
-    text-align: center;
-    color: white
-    
-  }
+}
+#main{
+  font-family:'Lucida Sans';
+}
+.contenido{
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px ;
+  font-family: "Courier New";
+}
+#img{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  border:2px solid black;
+  float: center
+}
+#datos{
+  background-color: blueviolet;
+}
+#intereses{
+  background-color: burlywood;
+}
+#experiencia{
+  background-color: yellow;
+}
+#eduacion{
+  background-color: rosybrown;
+}
+#contacto{
+  background-color: gray;
+}
 
 h2 {
     /*Este es el estilo elegido para los titulos secundarios*/
