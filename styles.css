@@ -1,0 +1,26 @@
+html {
+    /* Este es el estilo elegido para el css */
+    background-color: #2a3335;
+    font-family: Georgia, Tahoma, Arial, sans-serif;
+    color: rgb(18, 15, 211);
+      }
+
+h1 { 
+    /* Este es el estilo elegido para el titulo principal*/
+    margin: 0;
+    padding: 35px 0;
+    font-size: 55px;
+    text-align: center;
+    color: white
+    
+  }
+
+h2 {
+    /*Este es el estilo elegido para los titulos secundarios*/
+    font-size: 30px;
+    }
+
+ul {
+    /*Este es el estilo elegido para los elementos secundarios*/
+    font-size: 18px;
+}
