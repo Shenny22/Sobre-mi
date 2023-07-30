@@ -8,7 +8,8 @@ body {
 
 header {
   text-decoration: underline;
-  font: oblique bold 180% ;
+  font: oblique bold ;
+  font-size: 150%;
   font-weight:  bolder;
   background-color: rgb(67, 62, 121);
   color: white;
@@ -35,7 +36,7 @@ h3 {
 
 li{
   font-family: sans-serif;
-  font-size: 130%;
+  font-size: 120%;
   font-style: oblique;
   text-align: left
 }
