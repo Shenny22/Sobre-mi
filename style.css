@@ -26,7 +26,7 @@ h2 {
   margin: 0;
 }
 h3 {
-  text-align: left;
+  text-align: center;
   font: oblique bold 120% ;
   text-decoration: underline;
   margin: 0;
@@ -95,7 +95,7 @@ a{
   font-family: sans-serif;
   font-size: 110%;
   font-style: oblique;
-  text-align: left
+  text-align: center
 }
 ul{
   list-style:none;
@@ -103,5 +103,5 @@ ul{
   font-family: sans-serif;
   font-size: 110%;
   font-style: oblique;
-  text-align: left
+  text-align: center
 }
