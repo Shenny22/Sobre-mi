@@ -92,12 +92,14 @@ p{
   background-color: rgb(25, 29, 69);
 }
 a{
+  color: rgb(133, 223, 218);
   font-family: sans-serif;
   font-size: 110%;
   font-style: oblique;
   text-align: center
 }
 ul{
+  color: white;
   list-style:none;
   padding:0;
   font-family: sans-serif;
