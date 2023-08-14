@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font: oblique bold ;
+    font-size: 140%;
+    line-height: 1.8;
+    color: rgb(177, 194, 23);
+    text-shadow: 0 0 0.5em rgb(24, 29, 23);
+    text-align: center;
+    background-image: url(mate.jpg);
+
+
+}
+h1{
+    background-color: rgba(59, 64, 65, 0.692);
+    height: 560px;
+    font-weight: bold;
+    width:500px;
+    position: absolute;
+    left: 31%;
+    border-color:rgb(150, 158, 30);
+    border-style: solid;
+    border-radius: 45px;
+
+} 
+#numero1{
+    font-size: 125%;
+    height: 55px;
+    font-weight: bold;
+    width:300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 23%;
+    left: 38%;
+}
+#numero2{
+    font-size: 121%;
+    text-align: center;
+    height: 55px;
+    font-weight: bold;
+    width:300px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 46%;
+    left: 38%;
+}
+
+input{
+    display: block;
+    font-weight: bold;
+    width: 250px;
+    justify-content: center;
+    padding: 7px;
+    margin-bottom: 11px;
+    border: rgb(153, 117, 17) solid;
+    border-radius: 15px;
+    font-size: 22px;
+    display: flex;
+}
+
+
+#calcular{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-size: 110%;
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    background-color:green;
+    position: absolute;
+    top:60%;
+    left: 35%;
+    font-size: 30px;
+
+}
+#borrar{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-size: 110%;
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    background-color:rgb(224, 144, 39);
+    position: absolute;
+    top:60%;
+    left: 51%;
+    font-size: 30px;
+}
+
+#operaciones{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 7px;
+    width: 210px;
+    height: 49px;
+    background-color: rgb(0, 132, 255);
+    border: rgb(153, 117, 17) solid;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 35%;
+    left: 41%;
+
+}
+
+#resultado {
+    background-color: rgb(6, 41, 116);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    min-width: 363px;
+    min-height: 70px;
+    border: rgb(153, 117, 17) solid;
+    border-radius: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 72%;
+    left: 36%;
+}
+
