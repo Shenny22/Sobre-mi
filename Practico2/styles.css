@@ -1,0 +1,162 @@
+body {
+    font: oblique bold ;
+    font-size: 130%;
+    line-height: 1.7;
+    color: rgb(18, 19, 18);
+    text-align: center;
+    background-image: url(game.jpg);
+
+}
+h1{
+    font: oblique bold ;
+    font-size: 120%;
+    color: rgb(111, 21, 119);
+    text-shadow: 4px -2px 1.3px rgb(221, 203, 203);
+
+}
+#jugador{
+    font: oblique bold;
+    font-weight: bold;
+    font-size: 130%;
+    color: rgb(68, 8, 55);
+}
+#nombre{
+    font-size: 90%;
+    font-weight: bold;
+    height: 55px;
+    background-color: rgb(6, 83, 102);
+    width:300px;
+}
+#ok{
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-size: 110%;
+    border-radius: 8px;
+    width: 190px;
+    height: 50px;
+    background-color:green;
+}
+
+#piedra{
+    background-image: url(piedra.jpg);
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: rgb(17, 11, 114);
+    text-shadow: 2px -2px 1px white;
+    font-size: 130%;
+    border-radius: 30px;
+    border-width: 10px;
+    width: 209px;
+    height: 211px;
+    position: absolute;
+    top:24%;
+    left: 23%;
+    border-color: blue;
+}
+#papel{
+    background-image: url(papel.jpg);
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: rgb(196, 41, 20);
+    text-shadow: 2px -2px 1px white;
+    font-size: 130%;
+    border-radius: 30px;
+    border-width: 10px;
+    width: 210px;
+    height: 209px;
+    position: absolute;
+    top:24%;
+    left: 44%;
+    border-color: red;
+}
+#tijera{
+    background-image: url(tijera.jpg);
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: rgb(7, 160, 20);
+    text-shadow: 2px -2px 1px white;
+    font-size: 130%;
+    border-radius: 30px;
+    border-width: 10px;
+    width: 209px;
+    height: 210px;
+    position: absolute;
+    top:24%;
+    left: 65%;
+    border-color: rgb(0, 255, 21);
+}
+#leyenda1{
+    font: oblique bold;
+    font-weight: bold;
+    font-size: 100%;
+    color: black;
+    text-shadow: 4px -2px 1.3px rgb(231, 116, 212);
+    position: absolute;
+    top:54%;
+    left: 26%;
+    background-color: rgba(4, 34, 39, 0.692);
+    height: 200px;
+    width:770px;
+    position: absolute;
+    left: 23%;
+}
+#leyenda2{
+    font: oblique bold;
+    font-weight: bold;
+    font-size: 100%;
+    color: rgb(10, 10, 10);
+    text-shadow: 4px -2px 1.3px rgb(31, 221, 40);
+    position: absolute;
+    top:60%;
+    left: 42%;
+}
+#leyenda3{
+    font: oblique bold;
+    font-weight: bold;
+    font-size: 100%;
+    color: rgb(17, 4, 19);
+    text-shadow: 4px -2px 1.3px rgb(192, 219, 37);
+    position: absolute;
+    top:65%;
+    left: 40%;
+}
+#usuario{
+    font: oblique bold;
+    font-weight: bold;
+    font-size: 100%;
+    color: rgb(10, 10, 10);
+    text-shadow: 4px -2px 1.3px rgb(31, 221, 40);
+    position: absolute;
+    top:75%;
+    left: 42%;
+}
+#computadora{
+    font: oblique bold;
+    font-weight: bold;
+    font-size: 100%;
+    color: rgb(17, 4, 19);
+    text-shadow: 4px -2px 1.3px rgb(192, 219, 37);
+    position: absolute;
+    top:80%;
+    left: 40%;
+}
+#reiniciar{
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-size: 100%;
+    border-radius: 8px;
+    width: 270px;
+    height: 50px;
+    background-color:rgb(240, 133, 11);
+    position: absolute;
+    top:89%;
+    left: 42%;
+}
