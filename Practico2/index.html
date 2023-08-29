@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra,Papel o Tijera</title>
+    <!--Importa CSS --> 
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <h1> ¡¡☆ VAMOS ☆ A ☆ JUGAR ☆!! </h1>
+
+    <div id="jugador">
+        <label>Jugador/a: 
+        <input id="nombre" type="text" placeholder="Ingrese su nombre"></label>
+        <button id="ok" onclick="nombreJugador()" type="button">JUGAR!</button>
+    </div>
+    
+
+    </div class="opciones" id="opciones">
+        <button onclick="eleccionPiedra()" id="piedra">PIEDRA</button>
+        <button onclick="eleccionPapel()" id="papel">PAPEL</button>
+        <button onclick="eleccionTijera()" id="tijera">TIJERA</button>
+   
+    </div>
+
+    <section id= "leyenda">
+        <p id="leyenda1">☆QUIEN CONSIGA 3 PUNTOS GANA EL JUEGO☆</p>
+        <p id="leyenda2"> </p>
+        <p id="leyenda3"> </p>
+    </section>
+
+    <div id="ronda" >
+        <div id="usuario" ></div>
+        <div id="computadora" ></div>
+    </div>
+
+    <div id="boton">
+        <button id="reiniciar" onclick="reiniciarJuego()">REINICIAR JUEGO</button>
+    </div>
+   
+    <!--Importa JS --> 
+    <script src="./script.js"></script>
+    
+</body>
+</html>
